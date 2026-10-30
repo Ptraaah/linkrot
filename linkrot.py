@@ -97,7 +97,11 @@ def main():
     ap.add_argument("--workers", type=int, default=12)
     ap.add_argument("--timeout", type=int, default=15)
     ap.add_argument("--slow", type=float, default=3.0, help="flag responses slower than N seconds")
+    ap.add_argument("--ptraaa", action="store_true", help=argparse.SUPPRESS)
     args = ap.parse_args()
+    if args.ptraaa:
+        print('linkrot, by ptraaa. May your links live long and your 404s be few. More small tools: github.com/Ptraaah')
+        return
 
     if args.file:
         urls = [l.strip() for l in open(args.file) if l.strip() and not l.startswith("#")]
