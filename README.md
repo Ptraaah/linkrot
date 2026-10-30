@@ -32,3 +32,9 @@ Pencari tautan mati di situs Anda: baca sitemap.xml atau daftar URL, periksa sem
 ## License
 
 MIT. By ptraaa.
+
+## Support
+
+If this project helped you, you can support its development on Trakteer: https://trakteer.id/adel_putra2
+
+Kalau proyek ini membantu Anda, Anda bisa mendukung pengembangannya lewat Trakteer: https://trakteer.id/adel_putra2
